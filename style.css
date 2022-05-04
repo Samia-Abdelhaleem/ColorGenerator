@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#container #bg__item
+{
+    background-color: #000;
+    color: #fff;
+    padding:  20px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#container #bg__item  span
+{
+     text-transform: none;
+     letter-spacing: 3px;
+     font-weight: 800;
+
+}
+
+#container .change__btn
+{
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid rgb(145, 122, 122);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    cursor: pointer;
+}
